@@ -15,7 +15,7 @@ html, body {
     width: 100%;
 }
 .container {
-  min-height: 100vh; /* Ekrandan kısaysa bile uzayabilir */
+  min-height: 100vh; 
 }
 
 .navbar img {
@@ -102,31 +102,31 @@ nav ul li a:hover {
     box-shadow: 0 0 15px rgba(255, 38, 0, 0.6);
 }
 
-/* Yeni VALORANT GİRİŞ Texti */
+
 .valorant-giris {
     position: fixed;
     top: 50%;
-    left: 5%; /* Yazıyı sola kaydırdım */
+    left: 5%; 
     transform: translateY(-50%);
-    font-size: 70px;  /* Metni büyüttük */
+    font-size: 70px;  
     font-weight: bold;
     color: #ffffff;
     padding: 20px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    transition: box-shadow 0.3s ease; /* Parlama efekti için box-shadow */
-    cursor: pointer; /* Tıklanabilir olduğunu göstermek için */
+    transition: box-shadow 0.3s ease; 
+    cursor: pointer;
 }
 
 .valorant-giris a {
-    text-decoration: none; /* Bağlantı altı çizgiyi kaldırır */
-    color: inherit; /* Ana yazı rengini kullanır */
+    text-decoration: none; 
+    color: inherit; 
 }
 
 .valorant-giris:hover {
-    box-shadow: 0 0 15px rgb(255, 30, 0); /* Parlama efekti */
-    color: #ff0000; /* Hoverda rengi kırmızıya döner */
+    box-shadow: 0 0 15px rgb(255, 30, 0); 
+    color: #ff0000; 
 }
 
 .line {
