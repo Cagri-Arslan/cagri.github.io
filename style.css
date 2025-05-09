@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.container {
+  min-height: 100vh; /* Ekrandan kısaysa bile uzayabilir */
+}
+
+.navbar img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid #000;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li:not(:first-child) {
+    border-left: 2px solid #000;
+    padding-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff0000;
+    transform: scale(1.1);
+}
+
+.container {
+    padding-left: 3%;
+    padding-right: 8%;
+    background-image: url(./wallpapersden.com_valorant-hd-gaming_1920x1080.png);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.ranklar-container {
+    position: fixed;
+    top: 10%;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+}
+
+.ranklar-text {
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+}
+
+.rank-images {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.rank-images img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rank-images img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 38, 0, 0.6);
+}
+
+/* Yeni VALORANT GİRİŞ Texti */
+.valorant-giris {
+    position: fixed;
+    top: 50%;
+    left: 5%; /* Yazıyı sola kaydırdım */
+    transform: translateY(-50%);
+    font-size: 70px;  /* Metni büyüttük */
+    font-weight: bold;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: box-shadow 0.3s ease; /* Parlama efekti için box-shadow */
+    cursor: pointer; /* Tıklanabilir olduğunu göstermek için */
+}
+
+.valorant-giris a {
+    text-decoration: none; /* Bağlantı altı çizgiyi kaldırır */
+    color: inherit; /* Ana yazı rengini kullanır */
+}
+
+.valorant-giris:hover {
+    box-shadow: 0 0 15px rgb(255, 30, 0); /* Parlama efekti */
+    color: #ff0000; /* Hoverda rengi kırmızıya döner */
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 10px 0;
+}
+
+.ranklar-subtext {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: -15px;
+    margin-bottom: 10px;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+}
